@@ -1,0 +1,98 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://fsa.zobj.net/crop.php?r=DvXm0TQ7RqcAnc_muMRHeynErtjr1R-jJ0ks1p2enU5FLOFXFmbyyHYcnLHxfeuL1mjD13k4KKNkWYsuszFv1W1Fyb9Tu0kGgalZA1wlxRcTXQ4rSbgGLPuXmTaK73hI8lykwjNC5ibPD-DC);
+    background-size: auto 100%;
+}
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+}
+.neon-text {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 14rem;
+    color: #ffd8d8;
+    text-shadow:
+            .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+            .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+            .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+            .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757,
+            .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b,
+            .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+            .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+    padding: 0 3.5rem 0 3.5rem;
+}
+.neon-wrapper {
+    box-shadow:
+            0 0 0.1vw  0.4vw #fff7f7,
+            0 0 0.4vw  0.6vw #e97272,
+            0 0   4vw  0.4vw #e50b0b,
+            inset 0 0 1.5vw  0.4vw #e50b0b,
+            inset 0 0 0.4vw  0.2vw #e97272,
+            inset 0 0 0.5vw  0.2vw #fff7f7;
+    border-radius: 1.5rem;
+}
+
+.perspective-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(156, 46, 158, 0.85);
+    background-size: auto 100%;
+}
+
+.perspective-text {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 58px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+.perspective-line {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.perspective-wrapper p {
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.perspective-line:hover p{
+    transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+}
+.perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.333);
+}
+.perspective-line {
+    position: relative;
+}
+.perspective-text:hover p{
+    transform: translate(0, -50px);
+}
+.perspective-line:nth-child(1) {
+    left: 29px;
+}
+.perspective-line:nth-child(2) {
+    left: 58px;
+}
+.perspective-line:nth-child(3) {
+    left: 87px;
+}
+.perspective-line:nth-child(4) {
+    left: 116px;
+}
+.perspective-line:nth-child(5) {
+    left: 145px;
+}
